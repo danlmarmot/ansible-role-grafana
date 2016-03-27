@@ -1,0 +1,5 @@
+---
+- name: Restart grafana handler
+  service:
+    name: grafana-server
+    state: restarted
